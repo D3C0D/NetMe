@@ -29,7 +29,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="228dp"
             android:paddingLeft="16dp"
-            android:text="Profile Name"
+            android:text="@string/profile_name"
             android:textSize="18sp"
             android:textStyle="bold" />
 
