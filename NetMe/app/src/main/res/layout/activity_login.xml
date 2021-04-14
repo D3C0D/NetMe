@@ -15,7 +15,8 @@
         android:layout_height="122dp"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@drawable/login_white">
 
         <EditText
             android:id="@+id/login_email"
@@ -23,16 +24,19 @@
             android:layout_height="wrap_content"
             android:hint="@string/input_placeholder_email"
             android:inputType="textEmailAddress"
-            android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:layout_margin="10dp"/>
+
         <EditText
             android:id="@+id/login_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/input_placeholder_pass"
             android:inputType="textPassword"
-            android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:layout_margin="10dp"/>
 
     </LinearLayout>
 
@@ -53,17 +57,17 @@
 
     <Button
         android:id="@+id/login_reg_btn"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="327dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="11dp"
+        android:layout_marginBottom="100dp"
         android:paddingBottom="15dp"
         android:paddingTop="15dp"
         android:text="@string/login_reg_text"
         android:textAllCaps="false"
-        android:textColor="@color/colorPrimary"
+        android:textColor="?android:attr/colorLongPressedHighlight"
         android:textSize="16sp" />
 
     <ImageView
@@ -72,7 +76,7 @@
         android:layout_height="130dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="80dp"
         app:srcCompat="@drawable/logo" />
 
     <ProgressBar

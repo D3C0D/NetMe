@@ -57,7 +57,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Display Name"
                     android:inputType="textCapWords"
-                    android:textColor="@android:color/darker_gray"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="16sp" />
 
                 <Button

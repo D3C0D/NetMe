@@ -12,13 +12,11 @@
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:layout_width="325dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_below="@+id/reg_brand"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="143dp"
+        android:layout_height="190dp"
+        android:layout_centerInParent="true"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@drawable/login_white">
 
         <EditText
             android:id="@+id/reg_email"
@@ -26,8 +24,9 @@
             android:layout_height="wrap_content"
             android:hint="@string/input_placeholder_email"
             android:inputType="textEmailAddress"
-            android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:layout_margin="10dp"/>
 
         <EditText
             android:id="@+id/reg_password"
@@ -35,8 +34,9 @@
             android:layout_height="wrap_content"
             android:hint="@string/input_placeholder_pass"
             android:inputType="textPassword"
-            android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:layout_margin="10dp"/>
 
         <EditText
             android:id="@+id/reg_confirm_password"
@@ -44,8 +44,9 @@
             android:layout_height="wrap_content"
             android:hint="@string/input_placeholder_pass_confirm"
             android:inputType="textPassword"
-            android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:layout_margin="10dp"/>
 
     </LinearLayout>
 
@@ -66,7 +67,7 @@
 
     <Button
         android:id="@+id/reg_login_btn"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="327dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -87,36 +88,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="34dp"
         app:srcCompat="@drawable/logo" />
-
-    <TextView
-        android:id="@+id/reg_text"
-        android:layout_width="293dp"
-        android:layout_height="wrap_content"
-        android:layout_alignWithParentIfMissing="false"
-        android:layout_below="@+id/reg_logo"
-        android:layout_centerHorizontal="true"
-        android:layout_centerInParent="false"
-        android:layout_centerVertical="false"
-        android:text="@string/reg_brand_text"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="#fff"
-        android:textSize="22sp" />
-
-    <TextView
-        android:id="@+id/reg_brand"
-        android:layout_width="202dp"
-        android:layout_height="wrap_content"
-        android:layout_alignWithParentIfMissing="false"
-        android:layout_below="@+id/reg_text"
-        android:layout_centerHorizontal="true"
-        android:layout_centerInParent="false"
-        android:layout_centerVertical="false"
-        android:text="@string/app_name"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="#fff"
-        android:textSize="30sp" />
 
     <ProgressBar
         android:id="@+id/reg_progress"

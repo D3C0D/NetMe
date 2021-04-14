@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         // Init Toolbar & Navbar
         mainToolbar = findViewById(R.id.main_toolbar);
         setSupportActionBar(mainToolbar);
-        getSupportActionBar().setTitle("RedCloud");
+        getSupportActionBar().setTitle("NetMe");
 
 
 
@@ -208,7 +208,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         fragmentTransaction.hide(accountFragment);
 
-        fragmentTransaction.commit();
+        fragmentTransaction.commitNow();
 
     }
 
@@ -225,8 +225,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         fragmentTransaction.show(fragment);
 
-        //fragmentTransaction.replace(R.id.main_container, fragment);
-        fragmentTransaction.commit();
+        fragmentTransaction.commitNow();
 
     }
 }

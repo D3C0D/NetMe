@@ -73,7 +73,6 @@ public class HomeFragment extends Fragment {
                     Boolean reachedBottom = !recyclerView.canScrollVertically(1);
 
                     if (reachedBottom) {
-                        // Toast.makeText(container.getContext(), "Reached bottom", Toast.LENGTH_SHORT).show();
                         loadPost();
                     }
                 }
@@ -82,7 +81,7 @@ public class HomeFragment extends Fragment {
             // Sort results by descending (latest posts first)
             Query firstQuery = db.collection("Posts").limit(10);
 
-            // Set real time database listener
+            /*/ Set real time database listener
             firstQuery.addSnapshotListener(Objects.requireNonNull(getActivity()), new EventListener<QuerySnapshot>() {
                 @Override
                 public void onEvent(@Nullable QuerySnapshot documentSnapshots, @Nullable FirebaseFirestoreException e) {
@@ -132,11 +131,8 @@ public class HomeFragment extends Fragment {
                         }
                     }
                 }
-            });
+            });*/
         }
-
-
-
         // Inflate the layout for this fragment
         return view;
     }
