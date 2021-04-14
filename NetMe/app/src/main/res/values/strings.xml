@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">NetMe</string>
+
+    //login
+    <string name="input_placeholder_email">Email</string>
+    <string name="input_placeholder_pass">Password</string>
+    <string name="input_placeholder_pass_confirm">Confirm Password</string>
+    <string name="reg_btn_text">Create Account</string>
+    <string name="reg_login_text">Already have an account?</string>
+    <string name="reg_brand_text">Create a new Account</string>
+    <string name="login_btn_text">Login to Account</string>
+    <string name="login_reg_text">Don\'t have an account?</string>
+
+    //setupActivity
+    <string name="setup_btn_name_text">Save Account Settings</string>
+
+
+
 </resources>

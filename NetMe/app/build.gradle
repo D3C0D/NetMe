@@ -52,4 +52,5 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
     implementation 'androidx.multidex:multidex:2.0.1'
 
+
 }
