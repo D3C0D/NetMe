@@ -45,4 +45,7 @@
     //Searchable
     <string name="search_hint">Search Posts</string>
 
+    //Post Details Menu
+    <string name="action_share_text">Share</string>
+
 </resources>

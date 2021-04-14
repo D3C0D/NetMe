@@ -51,23 +51,14 @@
                 android:focusableInTouchMode="true"
                 android:orientation="vertical">
 
-                <com.google.android.material.textfield.TextInputLayout
+                <EditText
+                    android:id="@+id/setup_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingBottom="2dp"
-                    android:paddingTop="2dp"
-                    android:theme="@style/EditTextHintDark">
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/setup_name"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="Display Name"
-                        android:inputType="textCapWords"
-                        android:textColor="@android:color/darker_gray"
-                        android:textSize="16sp" />
-
-                </com.google.android.material.textfield.TextInputLayout>
+                    android:hint="Display Name"
+                    android:inputType="textCapWords"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/setup_btn"
