@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "585336197565",
+    "project_id": "netme-d3da8",
+    "storage_bucket": "netme-d3da8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585336197565:android:ed7db584941bfdd58c02d4",
+        "android_client_info": {
+          "package_name": "com.d3c0d.netme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585336197565-tdvc9at0b2jt6n1mefp7ionafdpladml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRAKM-1nOK_6PRSALeUmtaBIXTNZraXpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585336197565-tdvc9at0b2jt6n1mefp7ionafdpladml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
