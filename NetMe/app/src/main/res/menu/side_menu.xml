@@ -9,5 +9,8 @@
         <item android:id="@+id/nav_account"
             android:icon="@drawable/ic_person_black"
             android:title="@string/nav_account_text" />
+        <item android:id="@+id/nav_credits"
+            android:icon="@drawable/ic_credits"
+            android:title="@string/credit" />
     </group>
 </menu>

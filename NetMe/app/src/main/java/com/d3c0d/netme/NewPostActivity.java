@@ -130,8 +130,8 @@ public class NewPostActivity extends AppCompatActivity {
 
                                 try {
                                     compressedImageFile = new Compressor(NewPostActivity.this)
-                                            .setMaxHeight(200)
-                                            .setMaxWidth(200)
+                                            .setMaxHeight(400)
+                                            .setMaxWidth(400)
                                             .setQuality(2)
                                             .compressToBitmap(newImageFile);
                                 } catch (IOException e) {

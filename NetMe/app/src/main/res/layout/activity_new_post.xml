@@ -42,7 +42,8 @@
             <ImageView
                 android:id="@+id/add_post_img"
                 android:layout_width="match_parent"
-                android:layout_height="210dp"
+                android:layout_height="350dp"
+
                 android:layout_marginTop="5dp"
                 app:srcCompat="@drawable/default_image" />
 
@@ -71,8 +72,8 @@
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="20dp"
                 android:paddingTop="20dp"
+                android:paddingBottom="20dp"
                 android:text="@string/post_btn_text"
                 android:textAllCaps="false"
                 android:textSize="18sp" />

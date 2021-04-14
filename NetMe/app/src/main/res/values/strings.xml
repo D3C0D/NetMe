@@ -32,7 +32,7 @@
     <string name="post_title_hint">Post Title</string>
     <string name="post_desc_hint">Post Description</string>
     <string name="post_btn_text">Publish</string>
-  
+
     //Sign Up
     <string name="input_placeholder_pass_confirm">Confirm Password</string>
     <string name="reg_btn_text">Create Account</string>
@@ -47,5 +47,10 @@
 
     //Post Details Menu
     <string name="action_share_text">Share</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //credits
+    <string name="credit">Credits</string>
 
 </resources>

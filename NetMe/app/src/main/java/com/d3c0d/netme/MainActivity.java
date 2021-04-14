@@ -143,6 +143,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 addPostBtn.setVisibility(View.INVISIBLE);
                 replaceFragment(accountFragment, currentFragment);
                 break;
+
         }
         mainDrawerNav.closeDrawer(GravityCompat.START);
         return true;
