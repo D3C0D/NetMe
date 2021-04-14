@@ -48,4 +48,7 @@
     //Post Details Menu
     <string name="action_share_text">Share</string>
 
+    //Create New Post
+    <string name="upload_image_text">Select an image</string>
+
 </resources>

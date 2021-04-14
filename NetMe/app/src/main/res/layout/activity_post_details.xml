@@ -30,8 +30,8 @@
             <ImageView
                 android:id="@+id/post_detail_image"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:scaleType="centerCrop" />
+                android:layout_height="500dp"
+                android:scaleType="fitCenter" />
 
             <TextView
                 android:id="@+id/post_detail_title"

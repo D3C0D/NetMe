@@ -81,8 +81,8 @@ public class HomeFragment extends Fragment {
             // Sort results by descending (latest posts first)
             Query firstQuery = db.collection("Posts").limit(10);
 
-            /*/ Set real time database listener
-            firstQuery.addSnapshotListener(Objects.requireNonNull(getActivity()), new EventListener<QuerySnapshot>() {
+            // Set real time database listener
+            firstQuery.addSnapshotListener(new EventListener<QuerySnapshot>() {
                 @Override
                 public void onEvent(@Nullable QuerySnapshot documentSnapshots, @Nullable FirebaseFirestoreException e) {
                     if (documentSnapshots != null) {
@@ -131,7 +131,7 @@ public class HomeFragment extends Fragment {
                         }
                     }
                 }
-            });*/
+            });
         }
         // Inflate the layout for this fragment
         return view;

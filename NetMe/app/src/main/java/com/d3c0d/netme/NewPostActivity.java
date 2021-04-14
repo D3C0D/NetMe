@@ -58,6 +58,7 @@ public class NewPostActivity extends AppCompatActivity {
     private String currentUserId;
 
     private Bitmap compressedImageFile;
+    private Integer CODE = 1234;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,7 +92,7 @@ public class NewPostActivity extends AppCompatActivity {
                 CropImage.activity()
                         .setGuidelines(CropImageView.Guidelines.ON)
                         .setMinCropResultSize(512, 512)
-                        .setAspectRatio(1, 1)
+                        .setFixAspectRatio(false)
                         .start(NewPostActivity.this);
             }
         });
