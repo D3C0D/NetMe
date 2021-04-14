@@ -1,6 +1,39 @@
 <resources>
+    <string name="app_name">NetMe</string>
 
-    //login
+    //Activity comments
+    <string name="comment_label_text">Comments:</string>
+    <string name="comment_field_hint">Post a comment!</string>
+
+    //Fragment Account
+    <string name="profile_name">Profile Name</string>
+
+    //Activity Login
+    <string name="input_placeholder_email">Email</string>
+    <string name="input_placeholder_pass">Password</string>
+    <string name="login_btn_text">Log In</string>
+    <string name="login_reg_text">Don\'t have an account?</string>
+
+    //Side Menu
+    <string name="app_promo">We keep an eye on you!</string>
+    <string name="nav_home_text">Home</string>
+    <string name="nav_account_text">Account</string>
+
+    //Main Activity
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    //Main Menu
+    <string name="action_search_text">Search</string>
+    <string name="action_setting_text">Account Settings</string>
+    <string name="action_logout_text">Log Out</string>
+
+    //Activity New Post
+    <string name="post_title_hint">Post Title</string>
+    <string name="post_desc_hint">Post Description</string>
+    <string name="post_btn_text">Publish</string>
+  
+    //login / reg
     <string name="input_placeholder_email">Email</string>
     <string name="input_placeholder_pass">Password</string>
     <string name="input_placeholder_pass_confirm">Confirm Password</string>
@@ -12,7 +45,5 @@
 
     //setupActivity
     <string name="setup_btn_name_text">Save Account Settings</string>
-
-
 
 </resources>
