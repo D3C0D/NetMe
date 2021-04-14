@@ -23,8 +23,6 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-import com.d3c0d.netme.R;
-
 
 public class AccountFragment extends Fragment {
 
