@@ -28,7 +28,7 @@ public class AccountFragment extends Fragment {
 
     private FirebaseAuth mAuth;
     private FirebaseFirestore db;
-    private TextView profileName, profileEmail;
+    private TextView profileName;
     private CircleImageView profileImageView;
 
     private Uri profileImageUri = null;
