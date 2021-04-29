@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetMe</string>
+    <string name="comment_label_text">コメント：</string>
+    <string name="comment_field_hint">コメントを投稿！</string>
+    <string name="profile_name">プロファイル名</string>
+    <string name="input_placeholder_email">Eメール</string>
+    <string name="input_placeholder_pass">パスワード</string>
+    <string name="login_btn_text">ログインする</string>
+    <string name="login_reg_text">アカウントをお持ちではありませんか？</string>
+    <string name="app_promo">私たちはあなたから目を離さない！</string>
+    <string name="nav_home_text">家</string>
+    <string name="nav_account_text">アカウント</string>
+    <string name="drawer_open">開いた</string>
+    <string name="drawer_close">閉じる</string>
+    <string name="action_search_text">探す</string>
+    <string name="action_setting_text">アカウント設定</string>
+    <string name="action_logout_text">ログアウト</string>
+    <string name="post_title_hint">記事のタイトル</string>
+    <string name="post_desc_hint">投稿の説明</string>
+    <string name="post_btn_text">公開する</string>
+    <string name="input_placeholder_pass_confirm">パスワードを認証する</string>
+    <string name="reg_btn_text">アカウントを作成する</string>
+    <string name="reg_login_text">すでにアカウントをお持ちですか？</string>
+    <string name="reg_brand_text">新しいアカウントを作成する</string>
+    <string name="setup_btn_name_text">アカウント設定を保存する</string>
+    <string name="search_hint">投稿を検索</string>
+    <string name="action_share_text">シェア</string>
+    <string name="upload_image_text">画像を選択してください</string>
+</resources>

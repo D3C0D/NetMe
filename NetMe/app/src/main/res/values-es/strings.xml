@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetMe</string>
+    <string name="comment_label_text">Comentarios:</string>
+    <string name="comment_field_hint">Publica un comentario!</string>
+    <string name="profile_name">Nombre del Perfil</string>
+    <string name="input_placeholder_email">Correo Electronico</string>
+    <string name="input_placeholder_pass">Contraseña</string>
+    <string name="login_btn_text">Iniciar Sesión</string>
+    <string name="login_reg_text">¿No te has registrado?</string>
+    <string name="app_promo">"¡Te vigilamos! "</string>
+    <string name="nav_home_text">Inicio</string>
+    <string name="nav_account_text">Cuenta</string>
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Cerrar</string>
+    <string name="action_search_text">Buscar</string>
+    <string name="action_setting_text">Opciones de la Cuenta</string>
+    <string name="action_logout_text">Cerrar Sesión</string>
+    <string name="post_title_hint">Titulo del Post</string>
+    <string name="post_desc_hint">Descripción del Post</string>
+    <string name="post_btn_text">Publicar</string>
+    <string name="input_placeholder_pass_confirm">Confirmar Contraseña</string>
+    <string name="reg_btn_text">Crear Cuenta</string>
+    <string name="reg_login_text">¿Ya tienes una cuenta?</string>
+    <string name="reg_brand_text">Crear una nueva cuenta</string>
+    <string name="setup_btn_name_text">Guardar Cambios</string>
+    <string name="search_hint">Buscar Post</string>
+    <string name="action_share_text">Compartir</string>
+    <string name="upload_image_text">Seleccionar Imagen</string>
+</resources>
